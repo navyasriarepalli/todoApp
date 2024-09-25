@@ -1,0 +1,55 @@
+.cont{
+    background-color:#676DC1 ;
+    color: white;
+    width: 68vw;
+    
+    
+    height: 7vh;
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.para{
+    font-size: 18px;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.icon-cont{
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+
+.icon{
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px){
+    .cont{
+        width: 89vw;
+        margin-right: 6%;
+        
+    }
+    .para{
+        font-size: 12px;
+        margin-left: 2px;
+        
+        
+    }
+    .icon{
+        margin-left: 12px;
+    }
+    .icon-cont{
+        margin-top: 12px;
+        margin-right: 2%;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    .para{
+        font-size: 15px;
+    }
+
+}

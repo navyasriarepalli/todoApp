@@ -1,0 +1,53 @@
+.bg{
+    background-color:white;
+    height: 50vh;
+}
+.main-cont{
+    background-color:#4F5166 ;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+    color:white;
+}
+.input-cont{
+    width: 65vw;
+    height: 5vh;
+    margin-bottom: 1%;
+    padding-left: 3%;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 15px;
+}
+.mini-cont{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 10vw;
+    height: 5vh;
+    background-color:#676DC1;
+    border: #676DC1;
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .btn{
+        width: 30vw;
+        margin-top: 2px;
+    }
+    .main-cont{
+        margin: 0px;
+        
+        
+    
+    }
+    .two{
+        margin-right: 4%;
+    }
+}
